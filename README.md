@@ -2,6 +2,10 @@
 
 Transact-SQL Data Types validator for JavaScript
 
+## Installation
+
+    npm install tsdt
+
 ## int, bigint, smallint, and tinyint (Transact-SQL)
 
     var tsdt = require('tsdt');
