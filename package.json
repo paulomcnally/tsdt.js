@@ -1,0 +1,19 @@
+{
+    "name": "tsdt",
+    "description": "Transact-SQL Data Types validator for JavaScript",
+    "version": "0.0.1",
+    "author": "Paulo McNally <paulomcnally@gmail.com>",
+    "keywords": ["Transact-SQL", "Data", "Types", "Validator", "SQL"],
+    "directories": {
+        "lib": "./lib/tsdt"
+    },
+    "main": "./index.js",
+    "bugs": {
+        "url": "https://github.com/paulomcnally/tsdt.js/issues/new",
+        "email": "paulomcnally@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/paulomcnally/tsdt.js.git"
+    }
+}
