@@ -17,3 +17,11 @@ console.log( 'bigint: ' + tsdt.isBigint( '-9223372036854775809' ) ); // -2^63 (-
 console.log( 'char: ' + tsdt.isChar( 'abcd' ) );
 
 console.log( 'varchar: ' + tsdt.isVarchar( 'abcd' ) );
+
+
+
+console.log( 'date: ' + tsdt.isDate( '2013-12-01' ) );
+
+console.log( 'time: ' + tsdt.isTime( '00:00:01' ) );
+
+console.log( 'datetime: ' + tsdt.isDatetime( '2013-12-01 00:00:01' ) );

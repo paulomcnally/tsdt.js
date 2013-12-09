@@ -30,5 +30,17 @@ Source: [http://technet.microsoft.com/en-us/library/ms187745.aspx](http://techne
 
 Source: [http://technet.microsoft.com/en-us/library/ms176089.aspx](http://technet.microsoft.com/en-us/library/ms176089.aspx)
 
+## date, time and datetime (Transact-SQL)
+
+    var tsdt = require('tsdt');
+
+    console.log( 'date: ' + tsdt.isDate( '2013-12-01' ) );
+
+    console.log( 'time: ' + tsdt.isTime( '00:00:01' ) );
+
+    console.log( 'datetime: ' + tsdt.isDatetime( '2013-12-01 00:00:01' ) );
+
+
+
 
 
